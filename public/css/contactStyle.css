@@ -1,0 +1,83 @@
+body {
+	background: white;
+}
+
+#header-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 300px;
+	margin: 0 auto;
+	list-style: none;
+	font-family: 'Slabo 20px', serif;
+	position: absolute;
+	top: 6%;
+	right: 6%;
+}
+
+#header-navigation ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li {
+	margin-left: 24px;
+	display: inline-block;
+}
+
+
+#contact-flex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	
+}
+
+form {
+	padding-left: 10%;
+}
+
+#contact-form {
+	padding: 10%;
+	border: 1px;
+	border: solid 3px black;
+	box-shadow: 1px 2px;
+	height: 40%;
+	width: 50%;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+#submit-button {
+	margin-top: 10%;
+	margin-left: 33%;
+	width: 25%;
+}
+
+textarea {
+	width: 80%;
+	height: 20%;
+}
+
+input {
+	width: 80%;
+	margin-left: auto;
+	padding: 5px;
+}
+
+#message {
+
+}
+
+#form-title {
+	justify-content: center;
+}

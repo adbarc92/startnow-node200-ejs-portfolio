@@ -1,0 +1,18 @@
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 80%;
+	margin: 0 auto;
+	list-style: none;
+	height: 150px;
+	font-family: 'Slabo 27px', serif;
+}
+
+#my-name {
+  display: flex;
+}
+
+#logo {
+	visibility: hidden;
+}

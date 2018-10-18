@@ -1,0 +1,45 @@
+body {
+	background: white;
+}
+
+#header-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 300px;
+	margin: 0 auto;
+	list-style: none;
+	font-family: 'Slabo 20px', serif;
+	position: absolute;
+	top: 6%;
+	right: 6%;
+}
+
+#header-navigation ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li {
+	margin-left: 24px;
+	display: inline-block;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+.container {
+	height: 33%;
+}
+
+.container img {
+	width: 45%;
+	border: solid 2px;
+	float: left;
+}
+
+.container div {
+	width: 45%;
+	border: solid 2px;
+	float: right;
+}

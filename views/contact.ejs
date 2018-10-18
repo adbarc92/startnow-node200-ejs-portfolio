@@ -1,0 +1,48 @@
+<html>
+
+<head>
+	<title>Contact Alex</title>
+	<link rel=stylesheet href="css/contactStyle.css">
+</head>
+
+<body>
+	<header>
+		<nav id="header-navigation" class="nav">
+			<ul>
+				<li>
+					<image id="logo"></image>
+					<a href="/home">Home</a>
+				</li>
+				<li>
+					<a href="/projects">My Projects</a>
+				</li>
+				<li>
+					<a href="/contact">Contact Me</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="contact-flex" class="content">
+		<h1>Contact Alex</h1>
+		<hr />
+		<div id="contact-form" class="container">
+			<form action="/thanks" method="POST">
+				<label for="firstName">First Name:</label><br />
+				<input id="firstName" name="firstName" type="text"><br />
+
+				<label for="lastName">Last Name:</label><br />
+				<input id="lastName" name="lastName" type="text"><br />
+
+				<label for="email">Email:</label><br />
+				<input id="email" name="email" type="text"><br />
+
+				<label for="message">Message:</label><br />
+				<textarea id="message" name="message" type="textbox"></textarea><br />
+
+				<input id="submit-button" type="submit" />
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

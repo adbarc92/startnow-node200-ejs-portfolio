@@ -1,0 +1,32 @@
+body {
+	background: white;
+}
+
+#header-navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	max-width: 300px;
+	margin: 0 auto;
+	list-style: none;
+	font-family: 'Slabo 20px', serif;
+	position: absolute;
+	top: 6%;
+	right: 6%;
+}
+
+#header-navigation ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li {
+	margin-left: 24px;
+	display: inline-block;
+}
+
+#logo {
+	visibility: hidden;
+	position: absolute;
+	top: 8%;
+	left: 8%;
+}
